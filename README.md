@@ -10,10 +10,11 @@ Before running the project, ensure that you have the following software installe
 Python 3.6 or higher
 pip (Python package installer)
 #Setup Instructions
+
 1)Clone the Repository:
 
 Clone the project repository from GitHub:
-**For beginners** use goto </>Code --> Download as ZIP 
+For beginners use goto: </>Code --> Download as ZIP 
 2)Run pip install -r requirements.txt 
 It will automatically installs every required packages for your enviroinment
 
@@ -49,3 +50,8 @@ extract_text_from_pdf(file_path): Extracts text content from a PDF file using Py
 #Conclusion
 This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts. 
 
+
+
+
+
+![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
