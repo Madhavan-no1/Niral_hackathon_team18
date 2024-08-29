@@ -21,7 +21,8 @@ For beginners use goto: </>Code --> Download as ZIP
 2)Run pip install -r requirements.txt 
 It will automatically installs every required packages for your enviroinment
 
-#Project Structure
+**Project Structure**
+
 app.py: The main Flask application script.
 templates/index.html: HTML template for the web interface (place index.html inside templates folder for smooth experiences).
 uploads/: Directory to store uploaded files.
