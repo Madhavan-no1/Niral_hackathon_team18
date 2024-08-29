@@ -68,7 +68,7 @@ OUTPUT SAMPLE:
 
 PERKS OF OUR MODEL:
 
-1)Uses Spacy model for nlp and bert for tokenization(NO External API used here :)
+1)Uses Spacy model for nlp and bert for tokenization(NO External API used here)
 
 2)User friendly Interface 
 
