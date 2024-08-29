@@ -77,7 +77,7 @@ OUTPUT SAMPLE:
 
 4)Able to Upload multiple Transcripts without reload.
 
-5)Accuracy is aboout 75% and time taken to publish result about 35 - 60 sec (depends on complexity of uploaded script)
+5)Accuracy is aboout 65% and time taken to publish result about 35 - 60 sec (depends on complexity of uploaded script)
 
 **FUTURE WORKS AND AREA OF IMPROVEMENTS:**
 1) Need to make a model which loads and interprets faster and quicker.
