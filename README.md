@@ -32,6 +32,7 @@ Running the Application
 Run the Flask application using the following command:
 
 #python app.py
+
 By default, the application runs in debug mode on http://127.0.0.1:5000.
 
 #Access the Web Interface:
@@ -58,6 +59,7 @@ OUR PROTOTYPE WITH CUSTOM TEXT:
 ![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
 
 OUR SUBMISSION (AN OVERVIEW):
+
 UPLOAD AND LOADING:
 ![Screenshot (17)](https://github.com/user-attachments/assets/c1fa50a6-74bd-4085-ae13-261e78e5cbd6)
 
@@ -65,6 +67,7 @@ OUTPUT SAMPLE:
 ![Screenshot (18)](https://github.com/user-attachments/assets/6727a7f2-bdaa-47a1-a8e8-cbd01d17364f)
 
 PERKS OF OUR MODEL:
+
 1)Uses Spacy model for nlp and bert for tokenization(NO External API used here :)
 
 2)User friendly Interface 
