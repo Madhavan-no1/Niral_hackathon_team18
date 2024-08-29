@@ -57,15 +57,18 @@ extract_text_from_pdf(file_path): Extracts text content from a PDF file using Py
 **OUR PROTOTYPE WITH CUSTOM TEXT:**
 
 
-![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
 
 OUR SUBMISSION (AN OVERVIEW):
 
 UPLOAD AND LOADING:
-![Screenshot (17)](https://github.com/user-attachments/assets/c1fa50a6-74bd-4085-ae13-261e78e5cbd6)
+
+![Screenshot (21)](https://github.com/user-attachments/assets/98c551b3-8fc3-4e43-b191-b29d7a1c26f1)
 
 OUTPUT SAMPLE:
-![Screenshot (18)](https://github.com/user-attachments/assets/6727a7f2-bdaa-47a1-a8e8-cbd01d17364f)
+
+![Screenshot (19)](https://github.com/user-attachments/assets/0e46c72a-3337-4ceb-aafd-045b0c55c6a4)
+
+
 
 **PERKS OF OUR MODEL:**
 
