@@ -1,4 +1,4 @@
-# Niral_hackathon_team18
+# Niral_hackathon_team18 by Madhavan M, Dhinesh Kumar A, Keerthivasan S
 Hackathon Task: Few-Shot/Zero-Shot Car Sales Conversation Information Extractor and Analyzer
 
 **Project Overview**
