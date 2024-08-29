@@ -1,10 +1,10 @@
 # Niral_hackathon_team18
 Hackathon Task: Few-Shot/Zero-Shot Car Sales Conversation Information Extractor and Analyzer
 
-#Project Overview
+**Project Overview**
 This project is a Flask-based web application that processes customer service transcripts to extract customer requirements, company policies discussed, and customer objections using natural language processing (NLP) techniques. It utilizes pre-trained models from spaCy and Hugging Face Transformers for NLP tasks and handles both PDF and text file uploads.
 
-#Prerequisites:
+**Prerequisites:**
 Before running the project, ensure that you have the following software installed:
 
 Python 3.6 or higher
@@ -12,11 +12,11 @@ pip (Python package installer)
 
 main.py CONSIST OF PYTHON FILES TO RUN PLACE THE HTML(index.html) INSIDE TEMPLATES FOLDER.
 
-#Setup Instructions
+**Setup Instructions**
 
 1)Clone the Repository:
 
-Clone the project repository from GitHub:
+**Clone the project repository from GitHub:**
 For beginners use goto: </>Code --> Download as ZIP 
 2)Run pip install -r requirements.txt 
 It will automatically installs every required packages for your enviroinment
@@ -27,7 +27,7 @@ templates/index.html: HTML template for the web interface (place index.html insi
 uploads/: Directory to store uploaded files.
 Running the Application
 
-#Start the Flask Application:
+**Start the Flask Application:**
 
 Run the Flask application using the following command:
 
@@ -53,7 +53,7 @@ extract_text_from_pdf(file_path): Extracts text content from a PDF file using Py
 
 
 
-OUR PROTOTYPE WITH CUSTOM TEXT:
+**OUR PROTOTYPE WITH CUSTOM TEXT:**
 
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
@@ -66,7 +66,7 @@ UPLOAD AND LOADING:
 OUTPUT SAMPLE:
 ![Screenshot (18)](https://github.com/user-attachments/assets/6727a7f2-bdaa-47a1-a8e8-cbd01d17364f)
 
-PERKS OF OUR MODEL:
+**PERKS OF OUR MODEL:**
 
 1)Uses Spacy model for nlp and bert for tokenization(NO External API used here)
 
@@ -78,13 +78,13 @@ PERKS OF OUR MODEL:
 
 5)Accuracy is aboout 75% and time taken to publish result about 35 - 60 sec (depends on complexity of uploaded script)
 
-FUTURE WORKS AND AREA OF IMPROVEMENTS:
+**FUTURE WORKS AND AREA OF IMPROVEMENTS:**
 1) Need to make a model which loads and interprets faster and quicker.
 
 2) Provide most accurate results for the end user.
 
 
-#Conclusion
+**Conclusion**
 This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts and overview of the performance of the model. 
 
 
