@@ -40,14 +40,12 @@ Use the web interface to upload a text or PDF file. The application will process
 
 #Key Functions
 preprocess_text(text): Cleans the input text by removing unwanted characters and normalizing whitespace.
-
 extract_customer_requirements(transcript): Uses spaCy and a zero-shot classification model to extract customer requirements based on predefined categories.
-
 extract_company_policies(transcript): Identifies company policies discussed in the transcript using a zero-shot classification model.
-
 extract_customer_objections(transcript): Extracts customer objections from the transcript using a zero-shot classification model.
-
 process_transcript(transcript, conversation_id): Combines the above functions to process the entire transcript and return a structured response.
-
 extract_text_from_pdf(file_path): Extracts text content from a PDF file using PyPDF2.
+
+#Conclusion
+This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts. 
 
