@@ -82,7 +82,7 @@ OUTPUT SAMPLE:
 **FUTURE WORKS AND AREA OF IMPROVEMENTS:**
 1) Need to make a model which loads and interprets faster and quicker.
 
-2) Provide most accurate results for the end user.
+2) Provide most accurate results for the end user eventhough with higher complexity.
 
 
 **Conclusion**
