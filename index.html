@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            background-color: #28a745; /* Green color */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            text-align: left;
+        }
+        pre {
+            text-align: left; /* Align text to the left */
+        }
+        .spinner {
+            display: none; /* Initially hidden */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 8px solid rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #333; /* Dark spinner color */
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            z-index: 1000; /* Ensure spinner is above other content */
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload and Analyze File</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput" required><br><br>
+            <button type="submit" class="btn">Upload & Analyze</button>
+        </form>
+        <div class="output">
+            <pre id="output"></pre> <!-- Using <pre> tag for better formatting -->
+        </div>
+        <!-- Loading spinner -->
+        <div class="spinner" id="loading-spinner"></div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData();
+            const fileInput = document.getElementById('fileInput');
+            formData.append('file', fileInput.files[0]);
+
+            // Show the loading spinner
+            document.getElementById('loading-spinner').style.display = 'block';
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const outputDiv = document.getElementById('output');
+                outputDiv.textContent = JSON.stringify(data, null, 4); // Use indentation for readability
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                const outputDiv = document.getElementById('output');
+                outputDiv.textContent = 'An error occurred while processing the file.';
+            })
+            .finally(() => {
+                // Hide the loading spinner after processing
+                document.getElementById('loading-spinner').style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
