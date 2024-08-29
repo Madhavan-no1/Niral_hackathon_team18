@@ -88,4 +88,5 @@ OUTPUT SAMPLE:
 **Conclusion**
 This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts and overview of the performance of the model. 
 
-
+SOME CREATIVE STYLING BY US 
+![WhatsApp Image 2024-08-29 at 6 13 07 PM](https://github.com/user-attachments/assets/caee67c8-c386-4f33-8740-9843dca13ae2)
