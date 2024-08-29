@@ -68,12 +68,16 @@ PERKS OF OUR MODEL:
 1)Uses Spacy model for nlp and bert for tokenization(NO External API used here :)
 
 2)User friendly Interface 
+
 3)Formats like .txt and .pdf are accepted 
+
 4)Able to Upload multiple Transcripts without reload.
+
 5)Accuracy is aboout 75% and time taken to publish result about 35 - 60 sec (depends on complexity of uploaded script)
 
 FUTURE WORKS AND AREA OF IMPROVEMENTS:
 1) Need to make a model which loads and interprets faster and quicker.
+
 2) Provide most accurate results for the end user.
 
 
