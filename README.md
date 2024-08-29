@@ -9,6 +9,9 @@ Before running the project, ensure that you have the following software installe
 
 Python 3.6 or higher
 pip (Python package installer)
+
+main.py CONSIST OF PYTHON FILES TO RUN PLACE THE HTML(index.html) INSIDE TEMPLATES FOLDER.
+
 #Setup Instructions
 
 1)Clone the Repository:
@@ -20,7 +23,7 @@ It will automatically installs every required packages for your enviroinment
 
 #Project Structure
 app.py: The main Flask application script.
-templates/index.html: HTML template for the web interface.
+templates/index.html: HTML template for the web interface (place index.html inside templates folder for smooth experiences).
 uploads/: Directory to store uploaded files.
 Running the Application
 
@@ -47,13 +50,30 @@ extract_customer_objections(transcript): Extracts customer objections from the t
 process_transcript(transcript, conversation_id): Combines the above functions to process the entire transcript and return a structured response.
 extract_text_from_pdf(file_path): Extracts text content from a PDF file using PyPDF2.
 
-#Conclusion
-This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts. 
 
 
 OUR PROTOTYPE WITH CUSTOM TEXT:
 
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
+
+OUR SUBMISSION (AN OVERVIEW):
+UPLOAD AND LOADING:
+![Screenshot (17)](https://github.com/user-attachments/assets/c1fa50a6-74bd-4085-ae13-261e78e5cbd6)
+
+OUTPUT SAMPLE:
+![Screenshot (18)](https://github.com/user-attachments/assets/6727a7f2-bdaa-47a1-a8e8-cbd01d17364f)
+
+PERKS OF OUR MODEL:
+1)Uses Spacy model for nlp and bert for tokenization(NO External API used here :)
+2)User friendly Interface 
+
+FUTURE WORKS AND AREA OF IMPROVEMENTS:
+1) Need to make a model which loads and interprets faster and quicker.
+2) Provide most accurate results for the end user.
+
+
+#Conclusion
+This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts. 
 
 
