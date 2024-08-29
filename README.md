@@ -51,7 +51,9 @@ extract_text_from_pdf(file_path): Extracts text content from a PDF file using Py
 This documentation provides an overview of how to set up, run, and use the Flask application for processing customer service transcripts. 
 
 
-OUR PROTOTYPE:
+OUR PROTOTYPE WITH CUSTOM TEXT:
 
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/50358fb9-48da-4548-bb6e-cbaeba2ce9fb)
+
+
